@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Videographer — Portfolio</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <meta name="description" content="Videographer portfolio landing page — responsive & animated.">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <img src="logo.png" alt="Logo" />
+      </div>
+
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="cta" href="#contact">Get Started</a>
+        <button class="mobile-toggle" aria-expanded="false" aria-label="Toggle menu">
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" id="home" aria-label="Hero">
+    <div class="hero-bg">
+      <img src="Hero img.jpg" alt="Hero image" />
+      <div class="hero-pattern" aria-hidden="true"></div>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-left">
+        <div class="eyebrow">For Website and Video Editing</div>
+        <h1 class="hero-title">Videographer's Portfolio</h1>
+        <p class="hero-sub">Fresh ideas, cinematic visuals and tailored storytelling to bring your story to life.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#portfolio">See More About Us</a>
+          <a class="btn btn-outline" href="#services">Our Services</a>
+        </div>
+
+       
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-image-frame">
+          <img src="hero card.jpg" alt="Hero card" />
+          <button class="play-circle" aria-label="Play video">
+            <span class="triangle"></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="services container" id="services">
+    <div class="section-top">
+      <p class="section-title small">OUR SERVICES</p>
+      <h2 class="section-heading">What We Do?</h2>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card">
+        <div class="service-icon">
+          <img src="motion-graphics.png" alt="motion icon" />
+        </div>
+        <h3>Motion Graphics</h3>
+        <p>Professional motion graphics to amplify your videos and storytelling.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">
+          <img src="scriptwriter.png" alt="script icon" />
+        </div>
+        <h3>Scriptwriting & Editing</h3>
+        <p>From concept to cut, we polish your story into a crisp narrative.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">
+          <img src="social-media-marketing.png" alt="distribution icon" />
+        </div>
+        <h3>Video Distribution</h3>
+        <p>Optimized distribution strategy for maximum reach and engagement.</p>
+      </article>
+
+      <article class="service-card">
+        <div class="service-icon">
+          <img src="cloud-video.png" alt="hosting icon" />
+        </div>
+        <h3>Video Hosting</h3>
+        <p>Reliable hosting and playback that look great across devices.</p>
+      </article>
+    </div>
+
+    <div class="center" style="margin-top:22px;">
+      <a class="btn-outline" href="#services">View All Services</a>
+    </div>
+  </section>
+
+  <section class="gallery container" id="portfolio" aria-label="Portfolio gallery">
+    <div class="gallery-grid">
+      <div class="g-item"><img src="Gallery1.jpg" alt="" /><div class="overlay"><img src="icons/play.svg" alt="play" /></div></div>
+      <div class="g-item"><img src="Gallery2.jpg" alt="" /><div class="overlay"><img src="icons/play.svg" alt="play" /></div></div>
+      <div class="g-item large"><img src="Gallery3.jpg" alt="" /><div class="overlay"><img src="icons/play.svg" alt="play" /></div></div>
+      <div class="g-item"><img src="Gallery4.jpg" alt="" /><div class="overlay"><img src="icons/play.svg" alt="play" /></div></div>
+      <div class="g-item"><img src="Gallery5.jpg" alt="" /><div class="overlay"><img src="icons/play.svg" alt="play" /></div></div>
+      <div class="g-item"><img src="Gallery6.jpg" alt="" /><div class="overlay"><img src="icons/play.svg" alt="play" /></div></div>
+    </div>
+  </section>
+
+  <section class="stats" aria-label="Statistics">
+    <div class="container stats-inner">
+      <div class="stats-grid">
+        <div class="diamond">
+          <div class="diamond-inner">
+            <div class="stat-number" data-target="1068">0</div>
+            <div class="stat-label">Happy Clients</div>
+          </div>
+        </div>
+
+        <div class="diamond">
+          <div class="diamond-inner">
+            <div class="stat-number" data-target="230">0</div>
+            <div class="stat-label">Completed Projects</div>
+          </div>
+        </div>
+
+        <div class="diamond">
+          <div class="diamond-inner">
+            <div class="stat-number" data-target="230">0</div>
+            <div class="stat-label">Perspective Clients</div>
+          </div>
+        </div>
+
+        <div class="diamond">
+          <div class="diamond-inner">
+            <div class="stat-number" data-target="230">0</div>
+            <div class="stat-label">Awards</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="team container" id="team" aria-label="Our team">
+    <div class="team-top">
+      <p class="team-title">Nice to Meet</p>
+      <h2>Our Team</h2>
+    </div>
+
+    <div class="team-grid" role="list">
+      <div class="t-card" role="listitem">
+        <div class="t-img"><img src="member 1.jpg" alt="Team member"></div>
+        <div class="t-content">
+          <h3>Alex Carter</h3>
+          <p>Director</p>
+          <div class="t-social">
+          </div>
+        </div>
+      </div>
+
+      <div class="t-card" role="listitem">
+        <div class="t-img"><img src="member 2.jpg" alt="Team member"></div>
+        <div class="t-content">
+          <h3>Maria Kane</h3>
+          <p>Producer</p>
+          <div class="t-social">
+            <a href="#"><img src="facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="instagram.png" alt="instagram" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="t-card" role="listitem">
+        <div class="t-img"><img src="member 3.jpg" alt="Team member"></div>
+        <div class="t-content">
+          <h3>Natalie Bright</h3>
+          <p>Art Director</p>
+          <div class="t-social">
+            <a href="#"><img src="facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="instagram.png" alt="instagram" /></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="t-card" role="listitem">
+        <div class="t-img"><img src="member 4.jpg" alt="Team member"></div>
+        <div class="t-content">
+          <h3>John Miller</h3>
+          <p>Cinematographer</p>
+          <div class="t-social">
+            <a href="#"><img src="facebook.png" alt="facebook" /></a>
+            <a href="#"><img src="instagram.png" alt="instagram" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="center team-cta">
+      <a class="btn-outline" href="#team">Meet Our Team</a>
+    </div>
+  </section>
+
+  <section class="blog container" id="blog" aria-label="Blog">
+    <div class="section-top center">
+      <p class="section-title small">Our Blog</p>
+      <h2 class="section-heading">Blog Update</h2>
+    </div>
+
+    <div class="blog-grid">
+      <article class="blog-card">
+        <div class="meta">Jan 01, 2025 — 0.6 Comment</div>
+        <h3>What Makes Users Want to Share a Video on Social Media?</h3>
+        <p>We recently launched a new website for a viral client and wanted to share some of the focal features we were able to implement...</p>
+        <a class="read-more" href="#">Read more →</a>
+      </article>
+
+      <article class="blog-card">
+        <div class="meta">Jan 02, 2025 — 0.6 Comment</div>
+        <h3>How To Optimize Video for Social Platforms</h3>
+        <p>Short form, captions, and fast hooks — learn how we approach platform-first editing for distribution.</p>
+        <a class="read-more" href="#">Read more →</a>
+      </article>
+
+      <article class="blog-card">
+        <div class="meta">Jan 03, 2025 — 0.6 Comment</div>
+        <h3>Visual Storytelling: A Beginner's Guide</h3>
+        <p>Story beats, shot lists, and crafting emotionally resonant moments in short-form content.</p>
+        <a class="read-more" href="#">Read more →</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="cta-hero container" aria-label="Call to action">
+    <div class="cta-inner">
+      <div class="cta-text">
+        <h2>Fresh Ideas, Fresh Moments Giving Wings to your Stories.</h2>
+        <p class="small text-muted">Inc2000, best places to work 2019</p>
+        <a class="btn btn-primary" href="#contact">Start Your Stories</a>
+      </div>
+      <div class="cta-image">
+        <img src="Drone.jpg" alt="Drone" />
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <div class="logo-sm">
+          <img src="cloud-video.png" alt="Videograph" />
+        </div>
+        <p class="small">Videograph is an award-winning, full-service production company specializing in cinematic video and post production.</p>
+        <p class="small text-muted">Read more →</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Who we are</h4>
+        <ul>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact us</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Our work</h4>
+        <ul>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Latest</a></li>
+          <li><a href="#">Video Archive</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Newsletter</h4>
+        <form onsubmit="return false;">
+          <input type="email" placeholder="Email" aria-label="Email" />
+          <button class="btn-outline" type="submit"></button>
+        </form>
+      </div>
+    </div>
+
+    <div class="container copyright">
+      <div class="center">Copyright © 2025 — Videograph. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script>
+ 
+
+    // Simple stats counter when in view
+    const counters = document.querySelectorAll('.stat-number');
+    const speed = 1800;
+    const inView = (el) => {
+      const rect = el.getBoundingClientRect();
+      return rect.top < (window.innerHeight || document.documentElement.clientHeight) - 50;
+    };
+
+    function runCounters() {
+      counters.forEach(counter => {
+        if (counter.dataset.animated) return;
+        if (!inView(counter)) return;
+        const target = +counter.getAttribute('data-target');
+        let start = 0;
+        const step = Math.ceil(target / (speed / 16));
+        const timer = setInterval(() => {
+          start += step;
+          if (start >= target) {
+            counter.textContent = target;
+            counter.dataset.animated = 'true';
+            clearInterval(timer);
+          } else {
+            counter.textContent = start;
+          }
+        }, 16);
+      });
+    }
+    window.addEventListener('scroll', runCounters);
+    window.addEventListener('load', runCounters);
+
+    // Simple smooth-scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', function (e) {
+        const href = this.getAttribute('href');
+        if (href.length > 1) {
+          e.preventDefault();
+          const el = document.querySelector(href);
+          if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>
